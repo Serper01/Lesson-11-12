@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+    
+}
+
+.header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.header__logo-img {
+    max-width: 150px;
+    margin: 0;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header__menu-item {
+    margin-left: 20px;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.header__menu-link:hover {
+    color: #0a85f3;
+}
+
+.main-content {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.main-content__section {
+    padding: 60px 20px;
+}
+
+.main-content__title {
+    font-size: 36px;
+    color: #333;
+}
+
+.main-content__subtitle {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+.main-content__button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.main-content__button:hover {
+    background-color: #218838;
+}
+
+.floating-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 15px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.floating-btn:hover {
+    background-color: #0056b3;
+}
